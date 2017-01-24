@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>210049 - Riegelsberghalle</title>
+	<style>
+	#map
+	{
+		height: 400px;
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+	<h1>210049</h1>
+	<div id="map"></div>
+	<script>
+	function initMap()
+	{ var uluru = {lat: 49.3076, lng: 6.9373};
+	var map = new google.maps.Map(document.getElementById('map'), { zoom: 10,center: uluru });
+	var marker = new google.maps.Marker({ position:uluru, map: map }); }
+	</script>
+ 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-EkKn6WTLH7QbuJGDyH2hNxkiru_K6Qo&callback=initMap">
+	</script>
+	<table>
+	<tr><td>210049</td><td>Riegelsberghalle</td></tr>
+	<tr><td></td><td>D 66292 Riegelsberg</td></tr>
+	<tr><td></td><td>Alleestraße</td></tr>
+	</table>
+</body>
+</html>
