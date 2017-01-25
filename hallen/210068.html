@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>210068 - Glück-Auf-Halle</title>
+<style>
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+	<h3>210068 - Glück-Auf-Halle</h3>
+	<div id ="map"></div>
+	<script>
+	function initMap() {
+		var halle = {lat: 49.2628, lng: 6.8156};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 15,
+			center: halle
+		});
+		var marker = new google.maps.Marker({
+			position: halle,
+			map: map,
+			title: Glück-Auf-Halle,
+			lable'H',
+			Clickable; true
+		});
+		var contentString = '<a href = "https://www.google.de/maps/dir//-25.363,131.044/">Route: Glück-Auf-Halle</a>"';
+		var infowindow = new google.maps.InfoWindow({content: contentString});
+		marker.addListener('click', function() { infowindow.open(map, marker);});
+	}
+	</script>
+
+	<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-EkKn6WTLH7QbuJGDyH2hNxkiru_K6Qo&callback=initMap"></script>
+
+	<table>
+	<tr><td>210068</td><td>Glück-Auf-Halle</td></tr>
+	<tr><td></td><td>D 66787 Wadgassen</td></tr>
+	<tr><td></td><td>Weberstraße</td></tr>
+	<tr><td></td> <td></td></tr>
+	<tr><td></td><td>Absolutes Haftmittelverbot</td></tr>
+	</table>
+
+	<p>letzte Aktuallisierung: 2017-01-25 13:29:52.251</p>
+</body>
+</html>
