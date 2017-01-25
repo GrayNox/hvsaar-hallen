@@ -10,7 +10,7 @@
 	}
 	</style>
 	<script type="text/javascript">
-		function goToNewPage()
+		function goToNewPageNr()
 		{
 			var url = document.getElementById('halleNr').value;
 			if(url != 'none') {
@@ -18,9 +18,18 @@
 			}
 		}
 	</script>
+	<script type="text/javascript">
+		function goToNewPageName()
+		{
+			var url = document.getElementById('halleName').value;
+			if(url != 'none') {
+				window.location = url;
+			}
+		}
+	</script>
 </head>
 <body>
-	<select name="halleNr" id="halleNr" accesskey="target" onChange="goToNewPage()">
+	<select name="halleNr" id="halleNr" accesskey="target" onChange="goToNewPageNr()">
 	<option value="210001.html">210001</option>
 	<option value="210003.html">210003</option>
 	<option value="210004.html">210004</option>
@@ -94,7 +103,7 @@
 	<option value="210096.html">210096</option>
 	<option value="210097.html">210097</option>
 	<select>
-	<select name="halleNr" id="halleNr" accesskey="target" onChange="goToNewPage()">
+	<select name="halleName" id="halleName" accesskey="target" onChange="goToNewPageName()">
 	<option value="210003.html">ATSV Halle</option>
 	<option value="210065.html">Adolf-Collet-Halle</option>
 	<option value="210036.html">Allenfeldhalle</option>
@@ -199,6 +208,6 @@
 	<tr><td></td><td>Absolutes Haftmittelverbot</td></tr>
 	</table>
 
-	<p>letzte Aktuallisierung: 2017-01-25 15:40:09.342</p>
+	<p>letzte Aktuallisierung: 2017-01-25 15:44:43.697</p>
 </body>
 </html>
