@@ -14,10 +14,27 @@
 	<h3>210055 - Sporthalle Steinrausch</h3>
 	<div id ="map"></div>
 	<script>
-	var contentString = '<a href = "https://www.google.de/maps/dir//-25.363,131.044/">Route: Sporthalle Steinrausch</a>"';
-	var infowindow = new google.maps.InfoWindow({content: contentString});	marker.addListener('click', function() { infowindow.open(map, marker);});
-	}</script>
+	function initMap() {
+		var halle = {lat: 49.335, lng: 6.7657};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 15,
+			center: halle
+		});
+		var marker = new google.maps.Marker({
+			position: halle,
+			map: map,
+			title: Sporthalle Steinrausch,
+			lable'H',
+			Clickable; true
+		});
+		var contentString = '<a href = "https://www.google.de/maps/dir//-25.363,131.044/">Route: Sporthalle Steinrausch</a>"';
+		var infowindow = new google.maps.InfoWindow({content: contentString});
+		marker.addListener('click', function() { infowindow.open(map, marker);});
+	}
+	</script>
+
 	<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-EkKn6WTLH7QbuJGDyH2hNxkiru_K6Qo&callback=initMap"></script>
+
 	<table>
 	<tr><td>210055</td><td>Sporthalle Steinrausch</td></tr>
 	<tr><td></td><td>D 66740 Saarlouis</td></tr>
@@ -25,6 +42,7 @@
 	<tr><td></td> <td></td></tr>
 	<tr><td></td><td>Absolutes Haftmittelverbot</td></tr>
 	</table>
-	<p>letzte Aktuallisierung: 2017-01-25 13:11:39.211</p>
+
+	<p>letzte Aktuallisierung: 2017-01-25 13:22:09.249</p>
 </body>
 </html>
