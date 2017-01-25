@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>210079 - Halle 6</title>
+<style>
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+	<h3>210079 - Halle 6</h3>
+	<div id ="map"></div>
+	<script>
+	function initMap() {
+		var halle = {lat: 49.2494, lng: 7.033};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 15,
+			center: halle
+		});
+		var marker = new google.maps.Marker({
+			position: halle,
+			map: map,
+			title: 'Halle 6',
+			lable: 'H',
+			Clickable: true
+		});
+		var contentString = '<a href = "https://www.google.de/maps/dir//49.2494,7.033/">Route: Halle 6</a>';
+		var infowindow = new google.maps.InfoWindow({content: contentString});
+		marker.addListener('click', function() { infowindow.open(map, marker);});
+	}
+	</script>
+
+	<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-EkKn6WTLH7QbuJGDyH2hNxkiru_K6Qo&callback=initMap"></script>
+
+	<table>
+	<tr><td>210079</td><td>Halle 6</td></tr>
+	<tr><td></td><td>D 66123 Saarbrücken</td></tr>
+	<tr><td></td><td>Hermann-Neuberger-Sportschule</td></tr>
+	<tr><td></td> <td></td></tr>
+	<tr><td></td><td>Absolutes Haftmittelverbot</td></tr>
+	</table>
+
+	<p>letzte Aktuallisierung: 2017-01-25 13:47:12.434</p>
+</body>
+</html>
