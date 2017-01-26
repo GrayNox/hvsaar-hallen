@@ -102,7 +102,7 @@
 	<option value="210095">210095</option>
 	<option value="210096">210096</option>
 	<option value="210097">210097</option>
-	<select>
+	</select>
 	<select name="halleName" id="halleName" accesskey="target" onChange="goToNewPageName()">
 	<option value="210003">ATSV Halle</option>
 	<option value="210065">Adolf-Collet-Halle</option>
@@ -176,15 +176,15 @@
 	<option value="210034">Warndthalle</option>
 	<option value="210072">Westpfalzhalle</option>
 	<option value="210075">Würzbachhalle</option>
-	<select>
+	</select>
 	<div id ="map"></div>
 	<script>
 	function initMap() {
 		var halle = {lat: 49.3549, lng: 7.2574};
 		var map = new google.maps.Map(document.getElementById('map'), {
 			zoom: 15,
-			center: halle
-,			mapTypeControl: false,
+			center: halle,
+			mapTypeControl: false,
 			scaleControl: true
 		});
 		var marker = new google.maps.Marker({
@@ -196,7 +196,7 @@
 		});
 		var contentString = '<h3>Höcherberghalle</h3><p>D 66450 Bexbach</p><p>Am Sportpark</p><a href = "https://www.google.de/maps/dir//49.3549,7.2574/">Route: Höcherberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
-		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
+		var statischinfowindow = new google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});
 	}
 	</script>
