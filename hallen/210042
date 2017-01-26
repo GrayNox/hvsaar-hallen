@@ -196,8 +196,9 @@
 		});
 		var contentString = '<h3>Bliestalhalle</h3><p>D 66649 Oberthal</p><p>Schwimmbadstraße</p><a href = "https://www.google.de/maps/dir//49.5089,7.0788/">Route: Bliestalhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
-		var statischinfowindow = new google.maps.InfoWindow({content: contentString});
-		marker.addListener('click', function() { infowindow.open(map, marker);});
+		var isvisible = 1;
+		infowindow.open(map, marker)
+		marker.addListener('click', function() { if(isvisible ==1){infowindow.close(map, marker); isvisible = 0;}});
 	}
 	</script>
 

@@ -196,8 +196,9 @@
 		});
 		var contentString = '<h3>Sport- und Spielhalle Homburg</h3><p>D 66424 Homburg</p><p>Virchowstraße 7</p><a href = "https://www.google.de/maps/dir//49.3157,7.3394/">Route: Sport- und Spielhalle Homburg</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
-		var statischinfowindow = new google.maps.InfoWindow({content: contentString});
-		marker.addListener('click', function() { infowindow.open(map, marker);});
+		var isvisible = 1;
+		infowindow.open(map, marker)
+		marker.addListener('click', function() { if(isvisible ==1){infowindow.close(map, marker); isvisible = 0;}});
 	}
 	</script>
 

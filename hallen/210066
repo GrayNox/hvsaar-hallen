@@ -196,8 +196,9 @@
 		});
 		var contentString = '<h3>Hermann-Neuberger-Halle</h3><p>D 66333 Völklingen</p><p>Stadionstraße</p><a href = "https://www.google.de/maps/dir//49.256,6.8692/">Route: Hermann-Neuberger-Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
-		var statischinfowindow = new google.maps.InfoWindow({content: contentString});
-		marker.addListener('click', function() { infowindow.open(map, marker);});
+		var isvisible = 1;
+		infowindow.open(map, marker)
+		marker.addListener('click', function() { if(isvisible ==1){infowindow.close(map, marker); isvisible = 0;}});
 	}
 	</script>
 
