@@ -5,7 +5,7 @@
 	<title>210068 - Glück-Auf-Halle</title>
 	<style>
 	#map {
-		height: 50%;
+		height: 500px;
 		width: 100%;
 	}
 	</style>

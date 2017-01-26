@@ -5,7 +5,7 @@
 	<title>210038 - Mügelsberghalle</title>
 	<style>
 	#map {
-		height: 50%;
+		height: 500px;
 		width: 100%;
 	}
 	</style>
