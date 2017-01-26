@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Allenfeldhalle</h3><p>D 66589 Merchweiler</p><p>Allenfeldstraße 42a</p><a href = "https://www.google.de/maps/dir//49.3555,7.0614/">Route: Allenfeldhalle</a>';
+		var contentString = '<h3>Allenfeldhalle</h3><p>D 66589 Merchweiler</p><p>Allenfeldstraße 42a</p><a href = "https://www.google.de/maps/dir//49.3555,7.0614/" target="_blank">Route: Allenfeldhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

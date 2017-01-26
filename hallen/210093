@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Am Berg</h3><p>D 55765 Birkenfeld</p><p>Brechkaul</p><a href = "https://www.google.de/maps/dir//49.6468,7.1746/">Route: Sporthalle Am Berg</a>';
+		var contentString = '<h3>Sporthalle Am Berg</h3><p>D 55765 Birkenfeld</p><p>Brechkaul</p><a href = "https://www.google.de/maps/dir//49.6468,7.1746/" target="_blank">Route: Sporthalle Am Berg</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

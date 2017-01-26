@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Großsporthalle Lebach</h3><p>D 66822 Lebach</p><p>Dillinger Straße</p><a href = "https://www.google.de/maps/dir//49.4051,6.8956/">Route: Großsporthalle Lebach</a>';
+		var contentString = '<h3>Großsporthalle Lebach</h3><p>D 66822 Lebach</p><p>Dillinger Straße</p><a href = "https://www.google.de/maps/dir//49.4051,6.8956/" target="_blank">Route: Großsporthalle Lebach</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

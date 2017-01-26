@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Eisenberghalle</h3><p>D 66386 St. Ingbert-Hassel</p><p>Schulstraße</p><a href = "https://www.google.de/maps/dir//49.263,7.167/">Route: Eisenberghalle</a>';
+		var contentString = '<h3>Eisenberghalle</h3><p>D 66386 St. Ingbert-Hassel</p><p>Schulstraße</p><a href = "https://www.google.de/maps/dir//49.263,7.167/" target="_blank">Route: Eisenberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Fischbachhalle</h3><p>D 66287 Quierschied</p><p>Quierschieder Straße 80</p><a href = "https://www.google.de/maps/dir//49.3074,7.0294/">Route: Fischbachhalle</a>';
+		var contentString = '<h3>Fischbachhalle</h3><p>D 66287 Quierschied</p><p>Quierschieder Straße 80</p><a href = "https://www.google.de/maps/dir//49.3074,7.0294/" target="_blank">Route: Fischbachhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

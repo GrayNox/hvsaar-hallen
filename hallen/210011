@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Burghalle</h3><p>D 66459 Kirkel</p><p>Unnerweg</p><a href = "https://www.google.de/maps/dir//49.2822,7.2256/">Route: Burghalle</a>';
+		var contentString = '<h3>Burghalle</h3><p>D 66459 Kirkel</p><p>Unnerweg</p><a href = "https://www.google.de/maps/dir//49.2822,7.2256/" target="_blank">Route: Burghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

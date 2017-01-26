@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Hölschberghalle</h3><p>D 66440 Blieskastel</p><p>Saar-Pfalz-Straße 125</p><a href = "https://www.google.de/maps/dir//49.2179,7.1985/">Route: Hölschberghalle</a>';
+		var contentString = '<h3>Hölschberghalle</h3><p>D 66440 Blieskastel</p><p>Saar-Pfalz-Straße 125</p><a href = "https://www.google.de/maps/dir//49.2179,7.1985/" target="_blank">Route: Hölschberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

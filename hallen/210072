@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Westpfalzhalle</h3><p>D 66482 Zweibrücken</p><p>Bleicherstraße 3</p><a href = "https://www.google.de/maps/dir//49.2489,7.3675/">Route: Westpfalzhalle</a>';
+		var contentString = '<h3>Westpfalzhalle</h3><p>D 66482 Zweibrücken</p><p>Bleicherstraße 3</p><a href = "https://www.google.de/maps/dir//49.2489,7.3675/" target="_blank">Route: Westpfalzhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

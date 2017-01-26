@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Großenbruchhalle</h3><p>D 66583 Spiesen-Elversberg</p><p>Großenbruch</p><a href = "https://www.google.de/maps/dir//49.3202,7.1346/">Route: Großenbruchhalle</a>';
+		var contentString = '<h3>Großenbruchhalle</h3><p>D 66583 Spiesen-Elversberg</p><p>Großenbruch</p><a href = "https://www.google.de/maps/dir//49.3202,7.1346/" target="_blank">Route: Großenbruchhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Riegelsberghalle</h3><p>D 66292 Riegelsberg</p><p>Alleestraße</p><a href = "https://www.google.de/maps/dir//49.3076,6.9373/">Route: Riegelsberghalle</a>';
+		var contentString = '<h3>Riegelsberghalle</h3><p>D 66292 Riegelsberg</p><p>Alleestraße</p><a href = "https://www.google.de/maps/dir//49.3076,6.9373/" target="_blank">Route: Riegelsberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

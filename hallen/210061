@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sport- und Kulturhalle</h3><p>D 66636 Tholey</p><p>Auf dem Fels</p><a href = "https://www.google.de/maps/dir//49.5007,7.0256/">Route: Sport- und Kulturhalle</a>';
+		var contentString = '<h3>Sport- und Kulturhalle</h3><p>D 66636 Tholey</p><p>Auf dem Fels</p><a href = "https://www.google.de/maps/dir//49.5007,7.0256/" target="_blank">Route: Sport- und Kulturhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

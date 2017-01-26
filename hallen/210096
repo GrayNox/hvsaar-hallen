@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Realschule St. Wendel</h3><p>D 66606 St. Wendel</p><p>Willi-Graf-Straße 3</p><a href = "https://www.google.de/maps/dir//49.47,7.1528/">Route: Realschule St. Wendel</a>';
+		var contentString = '<h3>Realschule St. Wendel</h3><p>D 66606 St. Wendel</p><p>Willi-Graf-Straße 3</p><a href = "https://www.google.de/maps/dir//49.47,7.1528/" target="_blank">Route: Realschule St. Wendel</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Bruchwaldhalle Freisen</h3><p>D 66629 Freisen</p><p>Schulstraße 60</p><a href = "https://www.google.de/maps/dir//49.5465,7.2522/">Route: Bruchwaldhalle Freisen</a>';
+		var contentString = '<h3>Bruchwaldhalle Freisen</h3><p>D 66629 Freisen</p><p>Schulstraße 60</p><a href = "https://www.google.de/maps/dir//49.5465,7.2522/" target="_blank">Route: Bruchwaldhalle Freisen</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

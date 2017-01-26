@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Ensheim</h3><p>D 66131 Saarbrücken-Ensheim</p><p>Hauptstraße 80</p><a href = "https://www.google.de/maps/dir//49.2075,7.11/">Route: Sporthalle Ensheim</a>';
+		var contentString = '<h3>Sporthalle Ensheim</h3><p>D 66131 Saarbrücken-Ensheim</p><p>Hauptstraße 80</p><a href = "https://www.google.de/maps/dir//49.2075,7.11/" target="_blank">Route: Sporthalle Ensheim</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

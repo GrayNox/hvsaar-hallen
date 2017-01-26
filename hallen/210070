@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Wellesweiler</h3><p>D 66539 Neunkirchen</p><p>Berthold-Günther-Platz</p><a href = "https://www.google.de/maps/dir//49.347,7.2243/">Route: Sporthalle Wellesweiler</a>';
+		var contentString = '<h3>Sporthalle Wellesweiler</h3><p>D 66539 Neunkirchen</p><p>Berthold-Günther-Platz</p><a href = "https://www.google.de/maps/dir//49.347,7.2243/" target="_blank">Route: Sporthalle Wellesweiler</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

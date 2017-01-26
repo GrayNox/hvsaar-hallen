@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Peterberghalle</h3><p>D 66620 Nonnweiler</p><p>Peterbergstraße</p><a href = "https://www.google.de/maps/dir//49.5802,7.0059/">Route: Peterberghalle</a>';
+		var contentString = '<h3>Peterberghalle</h3><p>D 66620 Nonnweiler</p><p>Peterbergstraße</p><a href = "https://www.google.de/maps/dir//49.5802,7.0059/" target="_blank">Route: Peterberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

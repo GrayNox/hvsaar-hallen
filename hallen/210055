@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Steinrausch</h3><p>D 66740 Saarlouis</p><p>Kurt-Schumacher-Allee 129</p><a href = "https://www.google.de/maps/dir//49.335,6.7657/">Route: Sporthalle Steinrausch</a>';
+		var contentString = '<h3>Sporthalle Steinrausch</h3><p>D 66740 Saarlouis</p><p>Kurt-Schumacher-Allee 129</p><a href = "https://www.google.de/maps/dir//49.335,6.7657/" target="_blank">Route: Sporthalle Steinrausch</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

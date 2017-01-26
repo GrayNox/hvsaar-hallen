@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sportzentrum Erbach</h3><p>D 66424 Homburg</p><p>Steinbachstraße</p><a href = "https://www.google.de/maps/dir//49.3493,7.3301/">Route: Sportzentrum Erbach</a>';
+		var contentString = '<h3>Sportzentrum Erbach</h3><p>D 66424 Homburg</p><p>Steinbachstraße</p><a href = "https://www.google.de/maps/dir//49.3493,7.3301/" target="_blank">Route: Sportzentrum Erbach</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

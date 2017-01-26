@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sportzentrum Dudweiler</h3><p>D 66125 Saarbrücken</p><p>St.Avolder Straße</p><a href = "https://www.google.de/maps/dir//49.277,7.0315/">Route: Sportzentrum Dudweiler</a>';
+		var contentString = '<h3>Sportzentrum Dudweiler</h3><p>D 66125 Saarbrücken</p><p>St.Avolder Straße</p><a href = "https://www.google.de/maps/dir//49.277,7.0315/" target="_blank">Route: Sportzentrum Dudweiler</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

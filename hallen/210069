@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Rothenfeldhalle</h3><p>D 66914 Waldmohr</p><p></p><a href = "https://www.google.de/maps/dir//49.3831,7.3319/">Route: Rothenfeldhalle</a>';
+		var contentString = '<h3>Rothenfeldhalle</h3><p>D 66914 Waldmohr</p><p></p><a href = "https://www.google.de/maps/dir//49.3831,7.3319/" target="_blank">Route: Rothenfeldhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

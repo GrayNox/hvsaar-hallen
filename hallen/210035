@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Marpingen</h3><p>D 66646 Marpingen</p><p>Marienstraße 21</p><a href = "https://www.google.de/maps/dir//49.449,7.0536/">Route: Sporthalle Marpingen</a>';
+		var contentString = '<h3>Sporthalle Marpingen</h3><p>D 66646 Marpingen</p><p>Marienstraße 21</p><a href = "https://www.google.de/maps/dir//49.449,7.0536/" target="_blank">Route: Sporthalle Marpingen</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

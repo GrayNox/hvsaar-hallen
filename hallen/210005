@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Höcherberghalle</h3><p>D 66450 Bexbach</p><p>Am Sportpark</p><a href = "https://www.google.de/maps/dir//49.3549,7.2574/">Route: Höcherberghalle</a>';
+		var contentString = '<h3>Höcherberghalle</h3><p>D 66450 Bexbach</p><p>Am Sportpark</p><a href = "https://www.google.de/maps/dir//49.3549,7.2574/" target="_blank">Route: Höcherberghalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

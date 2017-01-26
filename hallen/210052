@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Primshalle</h3><p>D 66839 Schmelz</p><p>Industriegebiet Hoher Staden</p><a href = "https://www.google.de/maps/dir//49.4365,6.8472/">Route: Primshalle</a>';
+		var contentString = '<h3>Primshalle</h3><p>D 66839 Schmelz</p><p>Industriegebiet Hoher Staden</p><a href = "https://www.google.de/maps/dir//49.4365,6.8472/" target="_blank">Route: Primshalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

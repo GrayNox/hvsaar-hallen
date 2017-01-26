@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Trimm-Treff-Halle</h3><p>D 66346 Püttlingen</p><p>Köllertalstraße 143</p><a href = "https://www.google.de/maps/dir//49.2955,6.8929/">Route: Trimm-Treff-Halle</a>';
+		var contentString = '<h3>Trimm-Treff-Halle</h3><p>D 66346 Püttlingen</p><p>Köllertalstraße 143</p><a href = "https://www.google.de/maps/dir//49.2955,6.8929/" target="_blank">Route: Trimm-Treff-Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

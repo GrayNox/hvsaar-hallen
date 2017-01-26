@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Halle 6</h3><p>D 66123 Saarbrücken</p><p>Hermann-Neuberger-Sportschule</p><a href = "https://www.google.de/maps/dir//49.2494,7.033/">Route: Halle 6</a>';
+		var contentString = '<h3>Halle 6</h3><p>D 66123 Saarbrücken</p><p>Hermann-Neuberger-Sportschule</p><a href = "https://www.google.de/maps/dir//49.2494,7.033/" target="_blank">Route: Halle 6</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

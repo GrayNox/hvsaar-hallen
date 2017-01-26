@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Würzbachhalle</h3><p>D 66440 Blieskastel</p><p>Würzbachhallenstraße</p><a href = "https://www.google.de/maps/dir//49.2443,7.197/">Route: Würzbachhalle</a>';
+		var contentString = '<h3>Würzbachhalle</h3><p>D 66440 Blieskastel</p><p>Würzbachhallenstraße</p><a href = "https://www.google.de/maps/dir//49.2443,7.197/" target="_blank">Route: Würzbachhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

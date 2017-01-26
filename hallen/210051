@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sandrennbahn</h3><p>D 66424 Homburg</p><p>Cranachstraße</p><a href = "https://www.google.de/maps/dir//49.3339,7.3231/">Route: Sandrennbahn</a>';
+		var contentString = '<h3>Sandrennbahn</h3><p>D 66424 Homburg</p><p>Cranachstraße</p><a href = "https://www.google.de/maps/dir//49.3339,7.3231/" target="_blank">Route: Sandrennbahn</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

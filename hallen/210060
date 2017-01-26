@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sportzentrum St. Wendel</h3><p>D 66606 St. Wendel</p><p>Werschweilerstraße</p><a href = "https://www.google.de/maps/dir//49.4594,7.1804/">Route: Sportzentrum St. Wendel</a>';
+		var contentString = '<h3>Sportzentrum St. Wendel</h3><p>D 66606 St. Wendel</p><p>Werschweilerstraße</p><a href = "https://www.google.de/maps/dir//49.4594,7.1804/" target="_blank">Route: Sportzentrum St. Wendel</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

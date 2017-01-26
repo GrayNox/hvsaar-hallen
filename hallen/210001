@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Alsweiler</h3><p>D 66646 Marpingen</p><p>Gartenstraße</p><a href = "https://www.google.de/maps/dir//49.4766,7.0632/">Route: Sporthalle Alsweiler</a>';
+		var contentString = '<h3>Sporthalle Alsweiler</h3><p>D 66646 Marpingen</p><p>Gartenstraße</p><a href = "https://www.google.de/maps/dir//49.4766,7.0632/" target="_blank">Route: Sporthalle Alsweiler</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

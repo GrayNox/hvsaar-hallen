@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Richingen-Hanweiler</h3><p>D 66271 Rilchingen/Hanweiler</p><p>Am Sportplatz</p><a href = "https://www.google.de/maps/dir//49.1161,7.0507/">Route: Sporthalle Richingen-Hanweiler</a>';
+		var contentString = '<h3>Sporthalle Richingen-Hanweiler</h3><p>D 66271 Rilchingen/Hanweiler</p><p>Am Sportplatz</p><a href = "https://www.google.de/maps/dir//49.1161,7.0507/" target="_blank">Route: Sporthalle Richingen-Hanweiler</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

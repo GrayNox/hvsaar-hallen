@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle St. Arnual</h3><p>D 66119 Saarbrücken</p><p>Scharnhoststraße</p><a href = "https://www.google.de/maps/dir//49.2211,7.0108/">Route: Sporthalle St. Arnual</a>';
+		var contentString = '<h3>Sporthalle St. Arnual</h3><p>D 66119 Saarbrücken</p><p>Scharnhoststraße</p><a href = "https://www.google.de/maps/dir//49.2211,7.0108/" target="_blank">Route: Sporthalle St. Arnual</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

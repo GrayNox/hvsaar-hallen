@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Glück-Auf-Halle</h3><p>D 66787 Wadgassen</p><p>Weberstraße</p><a href = "https://www.google.de/maps/dir//49.2628,6.8156/">Route: Glück-Auf-Halle</a>';
+		var contentString = '<h3>Glück-Auf-Halle</h3><p>D 66787 Wadgassen</p><p>Weberstraße</p><a href = "https://www.google.de/maps/dir//49.2628,6.8156/" target="_blank">Route: Glück-Auf-Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)

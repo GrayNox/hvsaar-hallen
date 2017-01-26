@@ -194,7 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Südwesthalle</h3><p>D 66359 Bous</p><p>Auf der Mühlenscheib</p><a href = "https://www.google.de/maps/dir//49.2821,6.8011/">Route: Südwesthalle</a>';
+		var contentString = '<h3>Südwesthalle</h3><p>D 66359 Bous</p><p>Auf der Mühlenscheib</p><a href = "https://www.google.de/maps/dir//49.2821,6.8011/" target="_blank">Route: Südwesthalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)
