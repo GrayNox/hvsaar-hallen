@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Litermonthalle</h3>
-<p>D 66909 Nalbach</p><p>Josefstraße</p><a href = "https://www.google.de/maps/dir//49.3798,6.7838/">Route: Litermonthalle</a>';
+		var contentString = '<h3>Litermonthalle</h3><p>D 66909 Nalbach</p><p>Josefstraße</p><a href = "https://www.google.de/maps/dir//49.3798,6.7838/">Route: Litermonthalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

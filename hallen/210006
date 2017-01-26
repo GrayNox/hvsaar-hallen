@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sportzentrum Blieskastel</h3>
-<p>D 66440 Blieskastel</p><p>Zweibrückerstraße</p><a href = "https://www.google.de/maps/dir//49.2356,7.2668/">Route: Sportzentrum Blieskastel</a>';
+		var contentString = '<h3>Sportzentrum Blieskastel</h3><p>D 66440 Blieskastel</p><p>Zweibrückerstraße</p><a href = "https://www.google.de/maps/dir//49.2356,7.2668/">Route: Sportzentrum Blieskastel</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

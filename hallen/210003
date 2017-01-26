@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>ATSV Halle</h3>
-<p>D 66117 Saarbrücken</p><p>Am Lulustein</p><a href = "https://www.google.de/maps/dir//49.2274,6.9746/">Route: ATSV Halle</a>';
+		var contentString = '<h3>ATSV Halle</h3><p>D 66117 Saarbrücken</p><p>Am Lulustein</p><a href = "https://www.google.de/maps/dir//49.2274,6.9746/">Route: ATSV Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

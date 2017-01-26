@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Taubenfeldhalle</h3>
-<p>D 66287 Quierschied</p><p>Im Taubenfeld</p><a href = "https://www.google.de/maps/dir//49.3291,7.0504/">Route: Taubenfeldhalle</a>';
+		var contentString = '<h3>Taubenfeldhalle</h3><p>D 66287 Quierschied</p><p>Im Taubenfeld</p><a href = "https://www.google.de/maps/dir//49.3291,7.0504/">Route: Taubenfeldhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

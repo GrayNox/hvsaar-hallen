@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Dr.Röder-Halle</h3>
-<p>D 66679 Losheim</p><p>Weiskirchener Straße</p><a href = "https://www.google.de/maps/dir//49.5096,6.7472/">Route: Dr.Röder-Halle</a>';
+		var contentString = '<h3>Dr.Röder-Halle</h3><p>D 66679 Losheim</p><p>Weiskirchener Straße</p><a href = "https://www.google.de/maps/dir//49.5096,6.7472/">Route: Dr.Röder-Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

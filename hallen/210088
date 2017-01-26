@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Seffersbachhalle</h3>
-<p>D 66663 Merzig</p><p>Ringstraße 5</p><a href = "https://www.google.de/maps/dir//49.473,6.6765/">Route: Seffersbachhalle</a>';
+		var contentString = '<h3>Seffersbachhalle</h3><p>D 66663 Merzig</p><p>Ringstraße 5</p><a href = "https://www.google.de/maps/dir//49.473,6.6765/">Route: Seffersbachhalle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

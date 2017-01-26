@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Sporthalle Langdell</h3>
-<p>D 66583 Spiesen-Elversberg</p><p>In der Langdell</p><a href = "https://www.google.de/maps/dir//49.3117,7.1496/">Route: Sporthalle Langdell</a>';
+		var contentString = '<h3>Sporthalle Langdell</h3><p>D 66583 Spiesen-Elversberg</p><p>In der Langdell</p><a href = "https://www.google.de/maps/dir//49.3117,7.1496/">Route: Sporthalle Langdell</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});

@@ -194,8 +194,7 @@
 			lable: 'H',
 			Clickable: true
 		});
-		var contentString = '<h3>Glück-Auf-Halle</h3>
-<p>D 66265 Heusweiler</p><p>Glück-Auf-Weg</p><a href = "https://www.google.de/maps/dir//49.33,6.9879/">Route: Glück-Auf-Halle</a>';
+		var contentString = '<h3>Glück-Auf-Halle</h3><p>D 66265 Heusweiler</p><p>Glück-Auf-Weg</p><a href = "https://www.google.de/maps/dir//49.33,6.9879/">Route: Glück-Auf-Halle</a>';
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var statischinfowindow = new.google.maps.InfoWindow({content: contentString});
 		marker.addListener('click', function() { infowindow.open(map, marker);});
