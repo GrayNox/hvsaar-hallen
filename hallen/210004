@@ -198,7 +198,8 @@
 		var infowindow = new google.maps.InfoWindow({content: contentString});
 		var isvisible = 1;
 		infowindow.open(map, marker)
-		marker.addListener('click', function() { if(isvisible ==1){infowindow.close(map, marker); isvisible = 0;}});
+		marker.addListener('click', function() { if(isvisible ==1){infowindow.close(map, marker); isvisible = 0;}
+				else{infowindow.open(map, marker); isvisible = 1;}});
 	}
 	</script>
 
